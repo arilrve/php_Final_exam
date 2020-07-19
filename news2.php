@@ -1,0 +1,398 @@
+<?php
+session_start();
+if(isset($_SESSION["account"])){
+?>
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+	<title>TheQuest - Gaming Magazine Template</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="TheQuest Gaming Magazine Template">
+	<meta name="keywords" content="gaming, html">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<!-- Favicon -->
+	<link href="img/favicon.ico" rel="shortcut icon"/>
+
+	<!-- Google font -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i&display=swap" rel="stylesheet">
+
+	<!-- Stylesheets -->
+	<link rel="stylesheet" href="css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="css/font-awesome.min.css"/>
+	<link rel="stylesheet" href="css/magnific-popup.css"/>
+	<link rel="stylesheet" href="css/owl.carousel.min.css"/>
+	<link rel="stylesheet" href="css/slicknav.min.css"/>
+
+	<!-- Main Stylesheets -->
+	<link rel="stylesheet" href="css/style.css"/>
+
+
+	<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+
+</head>
+<body>
+	<!-- Page Preloder -->
+	<div id="preloder">
+		<div class="loader"></div>
+	</div>
+
+	<!-- Header section -->
+	<header class="header-section">
+		<a href="index.php" class="site-logo">
+			<img src="img/logo.png" alt="logo">
+		</a>
+		<ul class="main-menu">
+			<li><a href="index.php">Home</a></li>
+			<li><a href="game.php">Games</a></li>
+			<li><a href="news.php">News</a></li>
+		</ul>
+		<ul class="main-menu">
+		</ul>
+		<ul class="main-menu">
+		</ul>
+		<ul class="main-menu">
+		</ul>
+		<ul class="main-menu">
+		</ul>
+			<!-- ----------------- -->
+		<ul class="main-menu">
+		<li><a href="profile.php">Profile</a></li>
+			<li><a href="Collect.html">Collect</a></li>
+			<li><a href="Logout1.php">Logout</a></li>
+		</ul>
+		<div class="header-add">
+			<img src="img/add.png" alt="">
+		</div>
+	</header>
+	<!-- Header section end -->
+
+	<!-- Page top section -->
+	<section class="page-top-section set-bg" data-setbg="img/header-bg/1.jpg">
+		<div class="container">
+			<h2>Tips & Tricks</h2>
+		</div>
+	</section>
+	<!-- Page top section end -->
+
+		<!-- Blog section -->
+	<section class="blog-section spad">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8">
+					<div class="blog-post featured-post">
+						<img src="img/blog/mincraft.jpg" alt="">
+						<div class="post-date">May 26, 2020</div>
+						<h3>《我的世界：地下城》郵件專訪 以《我的世界》為舞台之外傳所追求的究竟是？</h3>
+						<div class="post-metas">
+							<div class="post-meta">By Admin</div>
+							<div class="post-meta">in <a href="#">Games</a></div>
+							<div class="post-meta">3 Comments</div>
+						</div>
+						<p>　　Microsoft 與 Mojang 將於 2020 年 5 月 26 日推出的《我的世界：地下城（Minecraft Dungeons）》（PC／PlayStation 4／Xbox One／Nintendo Switch），是以《我的世界（Minecraft）》世界觀為舞台的全新動作冒險遊戲。本作支援 Xbox Game Pass 服務，預定讓加入者自遊戲發售的當下起就能同時遊玩到本遊戲。</p> 
+						<a href=mincraft.php class="site-btn">Read More</a>
+					</div>
+					<div class="row">
+						<div class="col-md-6">
+							<div class="blog-post">
+								<img src="img/blog/sea.jpg" alt="">
+								<div class="post-date">May 26,2020</div>
+								<h4>《碧藍航線》陸版官方宣佈因「相關不可抗因素」下架聖女貞德 - 海之聖女等泳裝換裝</h4>
+								<div class="post-metas">
+									<div class="post-meta">By Admin</div>
+									<div class="post-meta">in <a href="#">Games</a></div>
+									<div class="post-meta">3 Comments</div>
+								</div>
+								<p>由中國上海蠻啾網路科技與廈門勇仕網路技術製作，bilibili 發行的智慧型手機遊戲《碧藍航線》陸版（ iOS／Android ）日前舉辦「碧藍航線 3 週年特別放送直播」慶祝遊戲問世三週年，同步釋出眾多遊戲資訊。
+ 
+                                而陸版官方今（26）日於微博宣佈，由於相關不可抗因素，非常抱歉向指揮官們告知，5 月 28 日維護後商城將對以下角色換裝進行下架。包括「惡毒 - 秘密基地的 Mercredi」、「聖女貞德 - 海之聖女」、「阿爾及利亞 - 白沙天堂」、「拉·加利索尼埃 - 無垢的 Piscine」、「貝亞恩 - 夏日救生站」、「沃克蘭 - 天然純真夏日騎士」維護後下架將無法購買，但已購買的指揮官（玩家）可繼續使用</p>
+								<a href=sea.php class="read-more">Read More</a>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="blog-post">
+								<img src="img/blog/rainbow1.jpg" alt="">
+								<div class="post-date">May 26,2020</div>
+								<h4>《虹彩六號》預告職業電競完整亞太賽事架構 27 日揭露 同步帶來經典表演賽</h4>
+								<div class="post-metas">
+									<div class="post-meta">By Admin</div>
+									<div class="post-meta">in <a href="#">Games</a></div>
+									<div class="post-meta">3 Comments</div>
+								</div>
+								<p>Ubisoft 今（26）日預告將於明（27）日的直播節目中揭露《虹彩六號》亞太聯賽最新消息，其中包含《虹彩六號》經典賽等。　　Ubisoft 預定於明日的直播節目中揭露《虹彩六號》詳細亞太聯賽消息，今日搶先透露將舉辦《虹彩六號》史無前例的《虹彩六號》經典賽，屆時將重現《虹彩六號》職業聯賽史上令人難忘的比賽或對戰。另外，為了替 4 年來激烈競爭的《虹彩六號》職業聯賽劃下句點，並慶祝亞太地區邁入新的《虹彩六號》電競時代，來自亞太地區的著名職業戰隊將再次接受挑戰，與昔日的對手展開對決；職業選手將進行線上對戰，並採用一些歷史比賽設定，例如和原比賽一模一樣的特勤幹員清單。</p>
+								<a href=rainbowtest.php class="read-more">Read More</a>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="blog-post">
+								<img src="img/blog/animal.jpg" alt="">
+								<div class="post-date">May 23,2020</div>
+								<h4>為什麼玩單機遊戲也會被 BAN 帳號？你或許不知道的超危險網購陷阱</h4>
+								<div class="post-metas">
+									<div class="post-meta">By Admin</div>
+									<div class="post-meta">in <a href="#">Games</a></div>
+									<div class="post-meta">3 Comments</div>
+								</div>
+								<p>隨著近期 Switch 主機的熱賣，一個存在已久、但卻依然有許多人掉以輕心的詐騙陷阱也逐漸猖獗了起來，本週巴哈姆特電玩瘋的特別企劃就要來告訴大家，「為什麼玩單機遊戲也會被 BAN 帳號？你或許不知道的超危險網購陷阱」。</p>
+								<a href="tv.php" class="read-more">Read More</a>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="blog-post">
+								<img src="img/blog/tomorrow.jpg" alt="">
+								<div class="post-date">May 26,2020</div>
+								<h4>《明日方舟》繁中版預計於 6 月底正式推出 巴哈獨家公開製作人「海貓絡合物」專訪</h4>
+								<div class="post-metas">
+									<div class="post-meta">By Admin</div>
+									<div class="post-meta">in <a href="#">Games</a></div>
+									<div class="post-meta">3 Comments</div>
+								</div>
+								<p>由龍成網路代理營運的《明日方舟》於今（26）日宣布，預計將於 6 月底正式推出，而為了讓玩家能更加了解遊戲相關特色，巴哈姆特 GNN 特別獨家專訪到《明日方舟》遊戲製作人「海貓絡合物」，揭露研發團隊的設計理念及開發秘辛。</p>
+								<a href="tomorrow.php" class="read-more">Read More</a>
+							</div>
+						</div>
+					</div>
+					<div class="site-pagination">
+						<a href="" class="sp-prev">Previous</a>
+						<a href="news.php">01.</a>
+						<a href="news2.php"class="active" >02.</a>
+						<a href="" class="sp-next">Next</a>           
+					</div>
+				</div>
+				<div class="col-lg-4 sidebar">
+					<div class="sb-widget">
+						<form class="sb-search">
+							<input type="text" placeholder="Search">
+						</form>
+					</div>
+					<div class="sb-widget">
+						<h2 class="sb-title">Categories</h2>
+						<ul class="sb-cata-list">
+							<li><a href="">Games<span>20</span></a></li>
+							<li><a href="">Gaming Tips & Tricks<span>23</span></a></li>
+							<li><a href="">Online Games<span>25</span></a></li>
+							<li><a href="">Team Games<span>17</span></a></li>
+							<li><a href="">Community<span>15</span></a></li>
+							<li><a href="">Uncategorized<span>22</span></a></li>
+						</ul>
+					</div>
+					<div class="sb-widget">
+						<h2 class="sb-title">Latest News</h2>
+						<div class="latest-news-widget">
+							<div class="ln-item">
+								<img src="img/blog-thumbs/1.jpg" alt="">
+								<div class="ln-text">
+									<div class="ln-date">April 1, 2019</div>
+									<h6>10 Amazing new games</h6>
+									<div class="ln-metas">
+										<div class="ln-meta">By Admin</div>
+										<div class="ln-meta">in <a href="#">Games</a></div>
+										<div class="ln-meta">3 Comments</div>
+									</div>
+								</div>
+							</div>
+							<div class="ln-item">
+								<img src="img/blog-thumbs/2.jpg" alt="">
+								<div class="ln-text">
+									<div class="ln-date">April 1, 2019</div>
+									<h6>10 Amazing new games</h6>
+									<div class="ln-metas">
+										<div class="ln-meta">By Admin</div>
+										<div class="ln-meta">in <a href="#">Games</a></div>
+										<div class="ln-meta">3 Comments</div>
+									</div>
+								</div>
+							</div>
+							<div class="ln-item">
+								<img src="img/blog-thumbs/3.jpg" alt="">
+								<div class="ln-text">
+									<div class="ln-date">April 1, 2019</div>
+									<h6>10 Amazing new games</h6>
+									<div class="ln-metas">
+										<div class="ln-meta">By Admin</div>
+										<div class="ln-meta">in <a href="#">Games</a></div>
+										<div class="ln-meta">3 Comments</div>
+									</div>
+								</div>
+							</div>
+							<div class="ln-item">
+								<img src="img/blog-thumbs/4.jpg" alt="">
+								<div class="ln-text">
+									<div class="ln-date">April 1, 2019</div>
+									<h6>10 Amazing new games</h6>
+									<div class="ln-metas">
+										<div class="ln-meta">By Admin</div>
+										<div class="ln-meta">in <a href="#">Games</a></div>
+										<div class="ln-meta">3 Comments</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="sb-widget">
+						<a href="#" class="add">
+							<img src="img/add-2.jpg" alt="">
+						</a>
+					</div>
+					<div class="sb-widget">
+						<h2 class="sb-title">Latest Comments</h2>
+						<div class="latest-comments-widget">
+							<div class="lc-item">
+								<img src="img/author-thumbs/1.jpg" alt="">
+								<div class="lc-text">
+									<h6>Jane Smith<span> In </span><a href="">The best 2019 Games</a></h6>
+									<div class="lc-date">April 1,2019</div>
+								</div>
+							</div>
+							<div class="lc-item">
+								<img src="img/author-thumbs/2.jpg" alt="">
+								<div class="lc-text">
+									<h6>Michael James<span> In </span><a href="">The best 2019 Games</a></h6>
+									<div class="lc-date">April 1,2019</div>
+								</div>
+							</div>
+							<div class="lc-item">
+								<img src="img/author-thumbs/3.jpg" alt="">
+								<div class="lc-text">
+									<h6>Jane Smith<span> In </span><a href="">The best 2019 Games</a></h6>
+									<div class="lc-date">April 1,2019</div>
+								</div>
+							</div>
+							<div class="lc-item">
+								<img src="img/author-thumbs/4.jpg" alt="">
+								<div class="lc-text">
+									<h6>Michael James<span> In </span><a href="">The best 2019 Games</a></h6>
+									<div class="lc-date">April 1,2019</div>
+								</div>
+							</div>
+							<div class="lc-item">
+								<img src="img/author-thumbs/1.jpg" alt="">
+								<div class="lc-text">
+									<h6>Jane Smith<span> In </span><a href="">The best 2019 Games</a></h6>
+									<div class="lc-date">April 1,2019</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Blog section end -->
+
+	<!-- Footer section -->
+	<div class="footer-section">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-3">
+					<div class="footer-widget">
+						<div class="about-widget">
+							<img src="img/logo.png" alt="">
+							<p>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo. Morbi id dictum quam, ut commodo.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-2 col-sm-6">
+					<div class="footer-widget">
+						<h2 class="fw-title">Usfull Links</h2>
+						<ul>
+							<li><a href="">Games</a></li>
+							<li><a href="">testimonials</a></li>
+							<li><a href="">Reviews</a></li>
+							<li><a href="">Characters</a></li>
+							<li><a href="">Latest news</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-lg-2 col-sm-6">
+					<div class="footer-widget">
+						<h2 class="fw-title">Services</h2>
+						<ul>
+							<li><a href="">About us</a></li>
+							<li><a href="">Services</a></li>
+							<li><a href="">Become a writer</a></li>
+							<li><a href="">Jobs</a></li>
+							<li><a href="">FAQ</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-lg-2 col-sm-6">
+					<div class="footer-widget">
+						<h2 class="fw-title">Careeres</h2>
+						<ul>
+							<li><a href="">Donate</a></li>
+							<li><a href="">Services</a></li>
+							<li><a href="">Subscriptions</a></li>
+							<li><a href="">Careers</a></li>
+							<li><a href="">Our team</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-lg-3 col-sm-6">
+					<div class="footer-widget fw-latest-post">
+						<h2 class="fw-title">Usfull Links</h2>
+						<div class="latest-news-widget">
+							<div class="ln-item">
+								<div class="ln-text">
+									<div class="ln-date">April 1, 2019</div>
+									<h6>10 Amazing new games</h6>
+									<div class="ln-metas">
+										<div class="ln-meta">By Admin</div>
+										<div class="ln-meta">in <a href="#">Games</a></div>
+										<div class="ln-meta">3 Comments</div>
+									</div>
+								</div>
+							</div>
+							<div class="ln-item">
+								<div class="ln-text">
+									<div class="ln-date">April 1, 2019</div>
+									<h6>10 Amazing new games</h6>
+									<div class="ln-metas">
+										<div class="ln-meta">By Admin</div>
+										<div class="ln-meta">in <a href="#">Games</a></div>
+										<div class="ln-meta">3 Comments</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="copyright"><p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p></div>
+		</div>
+		<div class="social-links-warp">
+			<div class="container">
+				<div class="social-links">
+					<a href="#"><i class="fa fa-instagram"></i><span>instagram</span></a>
+					<a href="#"><i class="fa fa-pinterest"></i><span>pinterest</span></a>
+					<a href="#"><i class="fa fa-facebook"></i><span>facebook</span></a>
+					<a href="#"><i class="fa fa-twitter"></i><span>twitter</span></a>
+					<a href="#"><i class="fa fa-youtube"></i><span>youtube</span></a>
+					<a href="#"><i class="fa fa-tumblr-square"></i><span>tumblr</span></a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Footer section end -->
+															
+	<!--====== Javascripts & Jquery ======-->
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.slicknav.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/circle-progress.min.js"></script>
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="js/main.js"></script>
+
+	</body>
+</html>
+<?php
+}else{
+    echo"<h1>You have no permission to access this page </h1>";
+    echo '<meta http-equiv="refresh" content="3;url=\'login.htm\'" />';
+}
